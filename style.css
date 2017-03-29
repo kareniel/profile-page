@@ -1,15 +1,16 @@
 
 /*  
+black: #111
 blue: #0074D9
 navy: #001f3f
-maroon: #85144b
+ochre: #CC7721;
 */
 
 ::-moz-selection { color: white; background: #001f3f; }
 ::selection { color: white; background: #001f3f; }
 
 #gfx {
-  background-color: #001f3f;
+  background-color: white;
   min-height: 100vh;
   height: 100%;
   width: 50vw;
@@ -30,7 +31,7 @@ maroon: #85144b
 
 body {
   font-family: 'Courier New';
-  padding-left: 5vw;
+  padding-left: 7vw;
   color: #111111;
   position: relative;
   margin: 0;
