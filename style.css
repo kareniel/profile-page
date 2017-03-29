@@ -1,0 +1,80 @@
+
+/*  
+blue: #0074D9
+navy: #001f3f
+maroon: #85144b
+*/
+
+::-moz-selection { color: white; background: #001f3f; }
+::selection { color: white; background: #001f3f; }
+
+#gfx {
+  background-color: #001f3f;
+  min-height: 100vh;
+  height: 100%;
+  width: 50vw;
+  position: absolute;
+  top: 0;
+  left: 120ex;
+}
+
+#twitter {
+  width: 1em;
+  height: 1em;
+  color: #0074D9;
+}
+
+.emoji {
+  padding: 0 0.5em 0 0;
+}
+
+body {
+  font-family: 'Courier New';
+  padding-left: 5vw;
+  color: #111111;
+  position: relative;
+  margin: 0;
+}
+
+main {
+  min-height: 90vh;
+}
+
+h2 {
+  font-size: 48px;
+  font-family: 'Arial';
+}
+
+#avatar {
+  width: 32ex;
+  padding-top: 8ex;
+  transform: rotate3d(0, 0, 1, 0deg);
+}
+
+a {
+  color: #0074D9;
+  text-decoration: none;
+  border-bottom: 1px dashed #001f3f;
+}
+
+a:hover{
+  color: #001f3f;
+  border-bottom: 1px dashed #001f3f;
+}
+
+a:focus {
+  outline: 1px solid #0074D9;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 1.5;
+  max-width: 60ex;
+}
+
+footer {
+  margin-top: 2.5em;
+  max-width: 80ex;
+  padding-bottom: 2.5em;
+}
+
