@@ -37,13 +37,24 @@ body {
   margin: 0;
 }
 
+nav {
+  padding-top: 8ex;
+}
+
 main {
-  min-height: 90vh;
+  min-height: 80vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial';
 }
 
 h2 {
   font-size: 48px;
-  font-family: 'Arial';
+}
+
+h3 {
+  font-size: 28px;
 }
 
 #avatar {
