@@ -1,0 +1,28 @@
+{
+  "name": "unbinding.org",
+  "version": "1.0.0",
+  "description": "website for unbinding.org",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/watch",
+    "watch": "node bin/watch",
+    "build": "node bin/build-html && node bin/build-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unbinding-org/unbinding.org.git"
+  },
+  "author": "kareniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unbinding-org/unbinding.org/issues"
+  },
+  "homepage": "https://github.com/unbinding-org/unbinding.org#readme",
+  "devDependencies": {
+    "budo": "10.0.4",
+    "bulma": "0.5.1",
+    "choo": "6.0.0",
+    "mkdirp": "0.5.1",
+    "node-sass": "4.5.3"
+  }
+}
