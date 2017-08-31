@@ -7,7 +7,7 @@ const OUT = path.join(__dirname, '../public/style.css')
 
 module.exports = buildCSS
 
-if (require.main !== module) {
+if (require.main === module) {
   buildCSS()
 }
 
